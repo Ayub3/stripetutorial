@@ -1,0 +1,25 @@
+{
+  "name": "stripetutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayub3/stripetutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayub3/stripetutorial/issues"
+  },
+  "homepage": "https://github.com/Ayub3/stripetutorial#readme",
+  "dependencies": {
+    "eslint": "^7.3.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
