@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node server/index.js",
+    "start:all": "NODE_ENV=production cd server && nodemon index.js & cd client && npm run start"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/Ayub3/stripetutorial#readme",
   "dependencies": {
-    "eslint": "^7.3.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   }
